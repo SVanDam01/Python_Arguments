@@ -42,7 +42,7 @@ print(force(0.5, "pluto"))
 
 def pull(m1, m2, d):
     g = 6.674*(10**-11)
-    result = (g * m1 * m2) / (d**2)
+    result = g * ( m1 * m2) / (d**2)
     return result
 
 
